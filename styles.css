@@ -1,22 +1,53 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat&display=swap');
-body {
-    font-family: helvetica, arial, sans-serif;
-    font-size: 1.25em;
-}
-
-#display-container {
-    background-color: #787878;
-    border: 1px solid black;
-    padding: 20px;
-    margin: 20px;
-}
-
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: #787878;
-    color: white;
-    text-align: center;
-}
+    @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat&display=swap');
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+    
+    body {
+        font-family: "Lato", arial, sans-serif;
+        color: #333;
+        font-size: 1.25em;
+        line-height: 1.6;
+    }
+    
+    ul {
+        list-style-type: none;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    h1,
+    h2 {
+        font-weight: 300;
+        line-height: 1.2;
+        margin: 10px 0;
+    }
+    
+    p {
+        margin: 10px 0;
+    }
+    
+    img {
+        width: 100%
+    }
+    
+    #display-container {
+        background-color: #787878;
+        border: 1px solid black;
+        padding: 20px;
+        margin: 20px;
+    }
+    
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #787878;
+        color: white;
+        text-align: center;
+    }
